@@ -7,7 +7,13 @@ import TransactionFilter from "../_components/TransactionFilter";
 import Header from "../_components/header";
 import TransactionList from "../_components/TransactionList";
 import users from "../../../../profiles.json";
-const Page = async ({ params }: { params: { id: string } }) => {
+type Props = {
+  params: {
+    id: string;
+  };
+};
+
+const Page = async ({ params }: Props) => {
   const user_id = params.id;
   const user = users[user_id as keyof typeof users];
 
