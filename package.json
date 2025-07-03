@@ -3,16 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
-    "next": "14.2.30",
+    "fs-extra": "^11.3.0",
+    "next": "15.4.0-canary.102",
+    "playwright": "^1.53.1",
+    "playwright-core": "^1.53.1",
+    "puppeteer": "^24.11.1",
+    "puppeteer-core": "^24.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

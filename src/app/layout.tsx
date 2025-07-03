@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "CSGO-rep.com",
+  title: "CSFloat Scraper",
   description:
     "Website to keep track of your cash trades, find trustworthy users to do transactions with and avoid risky trades by easily checking someone's transaction",
 };
